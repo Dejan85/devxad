@@ -1,4 +1,9 @@
 .home {
+  position: relative;
+  height: 84vh;
+  background-size: cover;
+  background-position: top;
+
   &__header {
     display: flex;
     flex-wrap: wrap;
@@ -24,5 +29,15 @@
     &--link {
       transition: all 0.3s;
     }
+  }
+
+  &__content {
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // outline: 1px solid red;
   }
 }

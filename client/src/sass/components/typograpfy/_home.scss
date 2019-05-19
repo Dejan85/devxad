@@ -27,6 +27,8 @@
   }
 
   &__content {
+    color: $color-white;
+    text-align: center;
     &__p {
       font-size: 4rem;
       font-style: italic;
