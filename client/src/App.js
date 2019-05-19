@@ -1,8 +1,15 @@
 import React from 'react';
-import './sass/main.css';
+import { BrowserRouter } from 'react-router-dom';
+
+//components
+import MainRouter from './MainRouter';
 
 function App() {
-  return <div className='App'>devxad</div>;
+  return (
+    <BrowserRouter>
+      <MainRouter />
+    </BrowserRouter>
+  );
 }
 
 export default App;
