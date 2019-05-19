@@ -38,6 +38,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // outline: 1px solid red;
+    transition: all 1s;
+
+    &__h1 {
+      padding-top: 5rem;
+    }
   }
 }
