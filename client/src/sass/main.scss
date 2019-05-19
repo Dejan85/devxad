@@ -1,3 +1,5 @@
-body {
-  color: green;
-}
+// BASE
+@import './components/base/base';
+
+// HOME
+@import './components/layout/home/home.scss';
