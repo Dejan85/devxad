@@ -1,0 +1,28 @@
+.home {
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    background: $backgroung-color-blue-dark;
+  }
+
+  &__nav {
+    &--list {
+      display: flex;
+      height: 100%;
+    }
+
+    &--item {
+      list-style-type: none;
+      padding: 1rem;
+    }
+
+    &--link {
+      transition: all 0.3s;
+    }
+  }
+}

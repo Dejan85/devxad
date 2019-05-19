@@ -1,5 +1,12 @@
+// ABSTRACTS
+@import '../sass/components/abstracts/variables';
+@import '../sass/components/abstracts/mixins';
+
 // BASE
-@import './components/base/base';
+@import '../sass/components/base/base';
+@import '../sass/components/base/utilities';
+@import '../sass/components/typograpfy/base';
 
 // HOME
-@import './components/layout/home/home.scss';
+@import '../sass/components/layout/home.scss';
+@import '../sass/components/typograpfy/home';
