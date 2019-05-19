@@ -1,14 +1,16 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 // components
 import Home from './components/layout/home/Home';
+import Services from './components/layout/services/Services';
 
 const MainRouter = () => {
   return (
-    <Switch>
+    <>
       <Route exact to='/' component={Home} />
-    </Switch>
+      <Route exact to='/' component={Services} />
+    </>
   );
 };
 

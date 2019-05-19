@@ -44,3 +44,15 @@ $breakpoint argument choices:
     }
   }
 }
+
+// H2 CLASS
+@mixin h2_global {
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $color-blue-dark;
+  font-family: Dosis, sans-serif;
+  text-align: center;
+  width: 100%;
+  margin-top: 10rem;
+}

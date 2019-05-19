@@ -1,0 +1,28 @@
+.services {
+  &__h2 {
+    @include h2_global;
+  }
+
+  &__content {
+    &__box {
+      &--icon {
+        font-size: 8rem;
+        color: $color-white;
+      }
+
+      &--heading {
+        font-weight: 700;
+        font-family: $font-family-1;
+        font-size: 1.9rem;
+        color: $color-blue-dark;
+      }
+
+      &--p {
+        font-family: $font-family-3;
+        color: $color-grey-blue;
+        line-height: 1.75;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
