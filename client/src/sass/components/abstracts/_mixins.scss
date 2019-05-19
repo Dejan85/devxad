@@ -54,5 +54,10 @@ $breakpoint argument choices:
   font-family: Dosis, sans-serif;
   text-align: center;
   width: 100%;
-  margin-top: 10rem;
+  padding-top: 10rem;
+}
+
+// PAGE HEIGHT
+@mixin page-height {
+  height: 84vh;
 }

@@ -1,8 +1,8 @@
 .home {
   position: relative;
-  height: 84vh;
   background-size: cover;
   background-position: top;
+  @include page-height;
 
   &__header {
     display: flex;

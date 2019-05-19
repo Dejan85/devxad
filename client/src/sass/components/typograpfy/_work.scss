@@ -1,0 +1,32 @@
+.work {
+  &__h2 {
+    @include h2_global;
+  }
+
+  &__description {
+    &--span {
+      font-family: $font-family-4;
+      color: $color-blue-dark;
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+    &--h3 {
+      font-family: $font-family-5;
+      font-size: 5rem;
+      font-weight: bold;
+    }
+    &--p {
+      font-family: $font-family-4;
+      line-height: 2.4rem;
+      font-size: 1.4rem;
+      color: $color-grey-red;
+      text-align: left;
+    }
+    &--btn {
+      color: $color-white;
+      font-size: 18px;
+      font-weight: 700;
+      font-family: $font-family-4;
+    }
+  }
+}
